@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+
 /**
- * n: parameter
- *
  * main - main function
  *
+ * n: parameter
+ *
+ * Return: Always 0
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
