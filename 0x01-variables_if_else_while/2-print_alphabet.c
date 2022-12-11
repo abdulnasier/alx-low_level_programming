@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - main function
@@ -12,6 +13,6 @@ int main(void)
 
 	for (z = 'a' ; z <= 'z' ; z++)
 		putchar(z);
-		putchar(\n);
+	putchar('\n');
 	return (0);
 }
