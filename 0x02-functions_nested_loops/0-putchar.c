@@ -1,26 +1,18 @@
 #include "main.h"
-
 /**
- * _putchar - function to be created
- *
- * @c: function parameter
- *
- * Return: always 0;
- *
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
-
-int _putchar(char c)
+int main(void)
 {
-	(void) c;
+	char abe[] = "_putchar";
 
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(abe[c]);
+	}
 	_putchar('\n');
 	return (0);
 }
