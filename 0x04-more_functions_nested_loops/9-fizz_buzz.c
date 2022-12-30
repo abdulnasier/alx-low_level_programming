@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <unistd.h>
 
 /**
  * main - function that takes main program
@@ -21,8 +21,8 @@ int main(void)
 		else if ((i % 3 == 0) && (i % 5 == 0))
 			printf("FizzBuzz");
 		else
-			_putchar(i + '0');
-		_putchar(' ');
+			putchar(i + '0');
+		putchar(' ');
 	}
 	return (0);
 }
