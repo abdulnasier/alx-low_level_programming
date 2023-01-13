@@ -3,6 +3,7 @@
 /**
  * puts2 - function to print other characters
  * @str: function parameter
+ * Return: always 0
  */
 
 void puts2(char *str)
